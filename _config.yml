@@ -20,8 +20,8 @@
 
 title: Ronnie Llamado
 email: llamado.ronnie@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A collection of random notebooks, scripts, and various notes.
+#description: >- # this means to ignore newlines until "baseurl:"
+  #A collection of random notebooks, scripts, and various notes.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ronnie-llamado.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: ronnie-llamado
