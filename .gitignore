@@ -4,3 +4,9 @@ _site
 .jekyll-metadata
 vendor
 .bundle
+
+.venv
+.vscode
+
+_notebooks/conf/*
+.ipynb_checkpoints

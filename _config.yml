@@ -18,19 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ronnie-llamado.github.io
-#email:  
+title: Ronnie Llamado
+email: llamado.ronnie@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Just a place to post some random things, nothing too crazy.
+  A collection of random notebooks, scripts, and various notes.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "ronnie-llamado.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ronnie-llamado.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: ronnie-llamado
 linkedin_username: rllamado
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -40,7 +40,11 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - Makefile
+  - README.md
+  - vendor
+  - bin
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
